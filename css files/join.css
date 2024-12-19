@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+    
+}
+li {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+nav a:hover {
+    background: gray;
+    text-decoration: underline;
+}
+.page1 {
+    height: 100vh;
+    width: 100%;
+    background: red;
+    background-image: url(../kawasaki_h2_2019_1_24092018_2205_1280_960.jpg);
+    /* here in background-image: i gotta put ../ before the image's name; */
+    background-size: cover;
+    background-position: center;
+}
+.page2 {
+    height: 100vh;
+    width: 100%;
+    background: burlywood;
+}
+.page3 {
+    height: 100vh;
+    width: 100%;
+    background: greenyellow;
+}

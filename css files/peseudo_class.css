@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pseudo-class {
+    transition: all 1s ease-in-out;
+}
+
+.pseudo-class:hover {
+    background: yellow;
+    text-decoration: underline;
+}
+
+a:link {
+    /* this is used to set a diferente color for every link 
+    that we didn't visite yet and it's pseudo class*/
+    color: darkorange;
+}
+a:active {
+    /* this will change the links color whenever they 
+    are actived */
+    background: pink;
+}
+input:focus {
+    color: green;
+}
+input:checked +p {
+    background: darkgoldenrod;
+}

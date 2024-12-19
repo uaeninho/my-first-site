@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai h1+p {
+    color: red;
+}
+.pai h1~p {
+    /* here we a basiclly tell the program that after h1 tag 
+    every p tags that u see put this style color: green; */
+    color: green;
+    /* and we can use use with class not with tags only */
+}
+ [meu-atributo] {
+    color: red;
+    /* this is the way how we're going to call our atribute 
+    by using [] and inside it add the atribute name*/
+ }

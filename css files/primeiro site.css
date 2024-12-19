@@ -1,0 +1,742 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media(max-width: 528px) {
+.menu .init-content .ul {
+    display: block;
+    list-style-type: disc;
+    align-content: center;
+
+}
+.menu .init-content {
+    display: block;
+    align-content: center;
+}
+.media-principal .menu {
+    display: block;
+    position: static;
+    border-bottom: none;
+    margin: 0 auto;
+    width: 50%;
+
+}
+.menu #b-h3 {
+    width: 7rem;
+
+}
+.menu .init-content h1 {
+    margin-left: -2rem;
+    
+}
+.menu .init-content h2 {
+    margin-left: -2rem;
+    
+}
+.menu .init-content .ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0.65rem;
+    left: 7%;
+    width: 0;
+    height: 0.15rem;
+    background: crimson;
+    transition: all 500ms ease-in-out;
+   
+    
+}
+.menu .init-content .ul li a:hover::after {
+    width: 35%;
+
+}
+#three .fourth-sect {
+    display: block;
+}
+#three .fourth-sect #video {
+   margin-left: -2rem;
+    
+}
+#three .fourth-sect .video {
+    width: 31rem;
+   
+}
+
+
+  
+}
+
+/* media */
+.init-content {
+    display: flex;
+    align-items: center;
+  
+    
+   
+    
+}
+.init-content h2 {
+    padding-left: 1rem;
+}
+.init-content h1 {
+    padding-left: 1rem;
+}
+.ul  {
+    list-style-type: none;
+    display: flex;
+       
+}
+.ul  li a {
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    position: relative;
+}
+.ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0.65rem;
+    left: 19%;
+    width: 0;
+    height: 0.15rem;
+    background: crimson;
+    transition: all 500ms ease-in-out;
+   
+    
+}
+.ul li a:hover::after {
+    width: 65%;
+
+}
+
+
+
+.menu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-bottom: 0.2rem solid black;
+    background-color: white;
+    width: 100%;
+    
+    
+}
+.menu_spacing {
+    height: 3.2rem;
+}
+.menu h3 {
+    cursor: pointer;
+    margin-right: 1.1rem;
+    border-radius: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    background: red;
+    color: white;
+    box-shadow: 0.2rem 0.1rem crimson;
+    text-transform: capitalize;
+}
+.part-1 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 30rem 50%;
+    grid-template-rows: 15rem;
+    row-gap: 3rem;
+    overflow-x: auto; 
+}
+.part-1 .first-img {
+    width: 20rem;
+    height: 15rem;
+    padding-top: 5rem;
+    padding-left: 7rem;
+    
+}
+.part-1 .second-img {
+    width: 20rem;
+    height: 15rem;
+    padding-top: 4rem;
+    padding-left: 7rem;
+}
+.part-1 h1:nth-child(2) {
+    grid-row: span 2;
+}
+.part-1 .first-letter::first-letter {
+    font-size: 2.7rem;
+    
+}
+.part-1 p {
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.6rem;
+    font-size: 1.25rem;
+}
+.part-1 h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+.part-1 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.part-1 .women-content {
+    padding-top: 5rem ;
+
+}
+
+/* second part things */
+.part-2  {
+    height: 100vh;
+    width: 100%;
+    background: #161717;
+    /* i will have to change this black */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* third part things */
+.home {
+    height: 100vh;
+    width: 100%;
+    background: #323333;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.home .div-spacing {
+    height: 1.5rem;
+}
+.home-img {
+    margin-top: 4rem ;
+    background-image: url("../images/5394219-mulher-bonita-sorrindo-em-fundo-urbano-foto.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10% ;
+    margin-right: 10%;
+    width: 80%;
+    height: 30rem;
+    border: 0.2rem solid white;
+}
+.img-p {
+   padding-top: 8rem;
+   padding-left: 1rem;
+   font-size: 3.5rem;
+   color: white;
+   font-weight: bold;
+    
+}
+
+.women-content p {
+    line-height: 1.5rem;
+}
+
+.fourth-sect {
+    height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+}
+.part-2 div {
+    width: 20rem;
+    height: 25rem;
+    border: 0.45rem solid blue;
+}
+.part-2 div:nth-child(1) {
+    background: none;
+    background-image: url(../images/hq720.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.part-2 div:nth-child(2) {
+    background: none;
+    background-image: url(../images/pexels-photo-4560337.jpeg);
+    background-position: 65%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.part-2 div:nth-child(3) {
+    background: none;
+    background-image: url(../images/16607678-retrato-de-um-jovem-casal-caucasiano-alegre-homem-e-mulher-segurando-muitos-sacos-de-papel-depois-de-fazer-compras-enquanto-caminhava-e-conversava-na-rua-casal-de-familia-feliz-com-pacot.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#button {
+    font-size: 1.6rem;
+    color: aliceblue;
+    background: blue;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-bottom: 0.45rem;
+
+}
+#button2 {
+    font-size: 1.45rem;
+    color: white;
+    background: blue;
+    padding: 0.4rem ;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-bottom: 0.45rem;
+}
+#button3 {
+    font-size: 1.56rem;
+    color:aliceblue;
+    background: blue;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-bottom: 0.45rem;
+}
+#footer {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#footer::after {
+    content: '';
+    width: 25%;
+    height: 3.5rem;
+    background: blue;
+    margin-left: 1rem;
+      
+}
+#footer::before {
+    content: '';
+    width: 25%;
+    height: 3.5rem;
+    background: blue;
+    margin-right: 1rem;
+   
+   
+    
+}
+.fourth-sect {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 2rem; */
+}
+.fourth-sect div:nth-child(1) {
+    width: 28rem;
+    height: 25rem;
+    background-color: none;
+    border: 0.2rem solid blue;
+}
+
+.fourth-sect .label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    display: block;
+    margin-left: 4rem;
+    
+}
+.fourth-sect a {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    
+}
+.fourth-sect .spec-a {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.fourth-sect #the-medias {
+    width: inherit;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+.fourth-sect #the-medias img {
+    width: 4rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+.fourth-sect div:nth-child(2) {
+    width: 40rem;
+    height: 25rem;
+    
+}
+
+
+.fourth-sect .video {
+    width: 40rem;
+    height: 25rem; 
+    display: block;
+}
+.fourth-sect div:nth-child(1) h2 {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+/* 
+second page */
+
+.second-html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.first-sect {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.first-sect h1 {
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: skyblue;
+    
+}
+.first-sect h2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+   
+}
+.first-sect p {
+    margin-bottom: 1rem;
+    line-height: 1.6rem;
+    font-size: 1.25rem;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+}
+.first-sect .first-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+#principal-p{
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+
+}
+.first-div .first-div1 {
+    width: 50%;
+}
+.first-div .first-div1 p {
+    margin-right: 0.8rem ;
+}
+.first-div .first-div2 {
+    width: 50%;
+    background-image: url(../images/hq720.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 0.3rem solid black;
+   
+}
+
+
+
+.first-sect .summary {
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+    color: crimson;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 0.4rem;
+    
+    
+}
+
+.first-sect #h3 {
+    margin-bottom: 1.2rem;
+}
+#h2-second {
+    margin-top: 1.4rem;
+}
+
+#second-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+#second-div .second-div1 {
+    width: 50%;
+    background-image: url(../images/approach.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 0.3rem solid black;
+    
+}
+
+#second-div .second-div2 {
+    width: 50%;
+    background: none;
+}
+#second-div  p {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    
+   
+}
+.first-sect #first-p {
+    margin-top: 1rem;
+}
+
+#third-div {
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 1.3rem;
+    display: flex;
+    justify-content: flex-start;
+    border: 0.3rem solid black;
+    
+}
+#third-div .third-div1 {
+    width: 50%;
+    background-image: url(../images/istockphoto-518208994-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+
+#third-div .third-div2 {
+    width: 50%;
+    background-image: url(../images/Screenshot_6-730x410.png);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.last-div {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0f0f0f;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.last-div .last-div1 {
+    width: 33.3%;
+    height: inherit;
+    /* background: lime; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.last-div1 #youtube {
+    width: 20%;
+    height: 3.5rem;
+    margin-left: 0.9rem;
+    margin-right: 0.7rem;
+
+}
+.last-div .last-div2 {
+   width: 33.3%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.last-div .last-div2 h4 {
+    color: white;
+}
+.last-div2 #whatsapp {
+    width: 20%;
+    height: 3.5rem;
+
+}
+.last-div .last-div3 {
+    width: 33.3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.last-div3 #e-mail {
+    width: 20%;
+    height: 3.5rem;
+}
+
+.first-sect #last-p {
+    margin-bottom: 1.5rem;
+}
+
+
+/* third page staff */
+.third-html {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.second-sect {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.second-sect h1 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: skyblue;
+}
+.second-sect p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.6rem;
+    font-size: 1.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.second-sect h2 {
+    margin-bottom: 1.15rem;
+    text-transform: capitalize;
+}
+
+.second-sect .c-first-div {
+    width: 100%;
+    height: 25rem;
+    background-image: url(../images/360_F_338371708_M8klQSTO2mMd2nycsCmKwmKSnbQymiTz.jpg);
+    background-position: center;
+    background-size: contain;
+    border: 0.2rem solid black;
+    margin-bottom: 0.7rem;
+}
+
+.c-second-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.c-second-div .c-second-div1 {
+    width: 50%;
+    background-image: url(../images/chat-messages-smartphone-sms-on-mobile-phone-screen-man-woman-couple-chatting-messaging.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.c-second-div .c-second-div2 {
+    width: 50%;
+}
+.second-sect .c-second-div .c-second-div2 .h2 {
+    margin-left: 1rem;
+}
+
+.second-sect span {
+    font-weight: bold;
+}
+
+
+/* fourth page */
+
+.fourth-html {
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.third-sect {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.third-sect span {
+    font-weight: bold;
+}
+
+.third-sect h1 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: skyblue;
+}
+.third-sect p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.6rem;
+    font-size: 1.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.third-sect h2 {
+    margin-bottom: 1.15rem;
+    text-transform: capitalize;
+}
+.third-sect .number {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/Getting-Her-Number-When-Youre-Face-to-Face.jpg);
+    background-position: center;
+    border: 0.2rem solid black;
+}
+.third-sect #h3-3 {
+    font-size: 5rem;
+    color: white;
+    padding-left: 1rem ;
+    text-transform: capitalize;
+    line-height: 7.5rem;
+    font-weight: bold;
+}
+.third-sect .n-div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start; 
+    height: auto;
+}
+.third-sect .n-div {
+    margin-bottom: 1.5rem;
+}
+
+.n-div .n-div1 {
+    width: 50%;
+   
+}
+.n-div .n-div1 p {
+    margin-right: 1rem;
+}
+.n-div .n-div2 {
+    width: 50%;
+    background-image: url(../images/Asking-a-Girl-Her-Number.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-mar {
+    margin-bottom: 1rem;
+}
+.third-sect #h2-s {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.third-sect #h1-11 {
+    margin-top: 1rem;
+}
+
+ 
+
+
+
+
+
+
